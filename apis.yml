@@ -1,22 +1,73 @@
 aid: kema
 name: Kema
-description: Kema is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Kema (Kema FZ-LLC) is a UAE-based B2B fintech providing cash-flow and
+  accounts-receivable tools for SMEs across the MENA region. Its platform
+  combines invoice financing that advances up to 95% of invoice value,
+  accounts-receivable automation with automated reminders, invoice tracking
+  and reconciliation, and branded payment links delivered over email, WhatsApp
+  and SMS that accept cards and wire transfers. Additional capabilities include
+  practice-management tooling for accounting firms, recurring-payment
+  automation, credit assessment and a real-time AR dashboard and analytics.
+  Kema is backed by Speedinvest and reports 4,000+ companies transacting on its
+  network.
 url: https://raw.githubusercontent.com/api-evangelist/kema/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - speedinvest
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: identity-enriched
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6746e9ebf538fac12100cc2a/67c59b0faab3a27ca338f18f_webclip.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Payments
+- Invoice Financing
+- Accounts Receivable
+- B2B Payments
+- Cash Flow
+- Working Capital
+- Payment Links
+- MENA
+- SME
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/kema-domain-security.yml
+- type: Website
+  url: https://kema.co
+- type: Blog
+  url: https://kema.co/resources/blog
+- type: Support
+  url: https://kema.co/contact-us
+- type: SignUp
+  url: https://app.kema.co
+- type: Login
+  url: https://app.kema.co
+- type: PrivacyPolicy
+  url: https://kema.co/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
